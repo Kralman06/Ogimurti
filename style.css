@@ -1,0 +1,38 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1618220048045-5e91e41b2ba4?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 10px 0 30px 0;
+}
+
+.btn {
+    background: white;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1em;
+}
